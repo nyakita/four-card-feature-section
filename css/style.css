@@ -1,9 +1,41 @@
-html{
-  font-size:16px;
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 body{
   width:1440px;
+  overflow: hidden;
+}
+
+header{
+  border:1px solid black;
+  width:50%;
   margin:0 auto;
-  
+}
+
+.supervisor{
+  border:1px solid cyan;
+  width: 25%;
+  height: 100%;
+}
+
+.team_builder{
+  border:1px solid red;
+  width: 25%;
+  height: 100%;
+}
+
+.karma{
+  border:1px solid orange;
+  width: 25%;
+  height: 100%;
+}
+
+.calc{
+  border:1px solid blue;
+  width: 25%;
+  height: 100%;
 }
