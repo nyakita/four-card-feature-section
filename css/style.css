@@ -30,7 +30,11 @@ header p {
   display: inline-block;
 }
 
-.supervisor{
+.container{
+  display: grid;
+}
+
+.item-1{
   border:1px solid cyan;
   width: 17%;
   height: 100%;
@@ -40,7 +44,7 @@ header p {
   top:10.7rem;
 }
 
-.team_builder{
+.item-2{
   border:1px solid red;
   width: 17%;
   height: 100%;
@@ -50,7 +54,7 @@ header p {
   bottom: 10rem;
 }
 
-.karma{
+.item-3{
   border:1px solid orange;
   width: 17%;
   height: 100%;
@@ -60,7 +64,7 @@ header p {
   left:41.5%;
 }
 
-.calc{
+.item-4{
   border:1px solid blue;
   width: 17%;
   height: 100%;
