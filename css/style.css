@@ -8,34 +8,74 @@
 body{
   width:1440px;
   overflow: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 header{
   border:1px solid black;
-  width:50%;
-  margin:0 auto;
+  width:38%;
+  margin:0 33%;
+  text-align: center;
+}
+
+h1{
+  line-height: 1.3;
+}
+
+h1 span{
+  font-weight: 100;
+}
+
+header p {
+  display: inline-block;
 }
 
 .supervisor{
   border:1px solid cyan;
-  width: 25%;
+  width: 17%;
   height: 100%;
+  padding: 2% 4% 2% 2%;
+  position: relative;
+  left:19%;
+  top:10.7rem;
 }
 
 .team_builder{
   border:1px solid red;
-  width: 25%;
+  width: 17%;
   height: 100%;
+  padding: 2% 4% 2% 2%;
+  position: relative;
+  left:41.5%;
+  bottom: 10rem;
 }
 
 .karma{
   border:1px solid orange;
-  width: 25%;
+  width: 17%;
   height: 100%;
+  padding: 2% 4% 2% 2%;
+  position: relative;
+  top:-7rem;
+  left:41.5%;
 }
 
 .calc{
   border:1px solid blue;
-  width: 25%;
+  width: 17%;
   height: 100%;
+  padding: 2% 4% 2% 2%;
+  position: relative;
+  top:-474px;
+  left:64%;
+}
+
+.image{
+  position: relative;
+  left:13rem;
+  top:2rem;
+  margin-bottom:10%;
+  width:64px;
+  height:64px;
+
 }
