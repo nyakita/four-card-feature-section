@@ -16,8 +16,8 @@ body{
   display: grid;
   width:1440px;
   height:100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: .9fr .9fr .9fr;
+  grid-template-rows:  1.2fr 1.2fr 1.2fr 1.2fr 1.2fr;
   grid-template-areas:
   "item-1 item-1 item-1"
   ". item-3. "
@@ -29,30 +29,44 @@ body{
 .item-1{
   grid-area:item-1;
   margin:0 auto;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .item-2{
   grid-area:item-2;
   border:5px solid;
   border-color:hsl(180, 62%, 55%) #FFF #FFF;
+  margin: 0 auto;
+  padding:10%;
+  width:60%;
 }
 
 .item-3{
   grid-area:item-3;
   border:5px solid;
   border-color:hsl(0, 78%, 62%) #FFF #FFF;
+  margin: 0 auto;
+  padding:10%;
+  width:60%;
 }
 
 .item-4{
   grid-area:item-4;
   border:5px solid;
   border-color:hsl(34, 97%, 64%) #FFF #FFF;
+  margin: 0 auto;
+  padding:10%;
+  width:60%;
 }
 
 .item-5{
   grid-area:item-5;
   border:5px solid;
   border-color:hsl(212, 86%, 64%) #FFF #FFF;
+  margin: 0 auto;
+  padding:10%;
+  width:60%;
 }
 
 .item-6{
@@ -62,4 +76,8 @@ body{
 
 .item-7{
   grid-area:item-7;
+}
+
+.image{
+  float:right;
 }
