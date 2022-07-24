@@ -12,6 +12,17 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
+h1 span {
+  color: hsl(229, 6%, 66%);
+  font-weight: lighter;
+}
+
+header p {
+  color: hsl(229, 6%, 66%);
+}
+
+
+
 .container{
   display: grid;
   width:1440px;
@@ -43,8 +54,33 @@ body{
   position: relative;
   bottom:27%;
   left:13%;
-
+  background-color:#FFF;
 }
+
+.item-2 p {
+  color:hsl(229, 6%, 66%);
+  margin-top:5%;
+  line-height: 1.7;
+}
+
+.item-3 p {
+  color:hsl(229, 6%, 66%);
+  margin-top:5%;
+  line-height: 1.7;
+}
+
+.item-4 p {
+  color:hsl(229, 6%, 66%);
+  margin-top:5%;
+  line-height: 1.7;
+}
+
+.item-5 p {
+  color:hsl(229, 6%, 66%);
+  margin-top:5%;
+  line-height: 1.7;
+}
+
 
 .item-3{
   grid-area:item-3;
@@ -55,6 +91,7 @@ body{
   width:60%;
   position: relative;
   top:18%;
+  background-color:#FFF;
 }
 
 .item-4{
@@ -66,6 +103,7 @@ body{
   width:60%;
   position: relative;
   bottom:75%;
+  background-color:#FFF;
 }
 
 .item-5{
@@ -78,6 +116,7 @@ body{
   position: relative;
   bottom:27%;
   right:13%;
+  background-color:#FFF;
 }
 
 .item-6{
@@ -92,4 +131,52 @@ body{
 .image{
   float:right;
   margin-top:10%;
+}
+
+@media only screen and (max-width: 376px){
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 4fr .4fr .4fr .4fr 1fr;
+    grid-template-areas:
+    "item-1"
+    "item-2"
+    "item-3"
+    "item-4"
+    "item-5"
+    "item-6"
+  }
+  *{
+    padding: 0;
+    margin:0;
+    all:unset;
+  }
+
+  .item-1{
+    font-size:30px;
+
+  }
+
+  .item-2{
+    font-size:30px;
+    margin:0;
+    width:100vw;
+    height: 50vh;
+    padding:0;
+  }
+
+  .item-3{
+    font-size:30px;
+  }
+
+  .item-4{
+    font-size:30px;
+  }
+
+  .item-5{
+    font-size:30px;
+  }
+
+  .item-6{
+    font-size:30px;
+  }
 }
