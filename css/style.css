@@ -40,6 +40,10 @@ body{
   margin: 0 auto;
   padding:10%;
   width:60%;
+  position: relative;
+  bottom:27%;
+  left:13%;
+
 }
 
 .item-3{
@@ -49,6 +53,8 @@ body{
   margin: 0 auto;
   padding:10%;
   width:60%;
+  position: relative;
+  top:18%;
 }
 
 .item-4{
@@ -58,6 +64,8 @@ body{
   margin: 0 auto;
   padding:10%;
   width:60%;
+  position: relative;
+  bottom:75%;
 }
 
 .item-5{
@@ -67,6 +75,9 @@ body{
   margin: 0 auto;
   padding:10%;
   width:60%;
+  position: relative;
+  bottom:27%;
+  right:13%;
 }
 
 .item-6{
@@ -80,4 +91,5 @@ body{
 
 .image{
   float:right;
+  margin-top:10%;
 }
